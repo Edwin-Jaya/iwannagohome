@@ -1,16 +1,22 @@
-Website : I want to go home.
+Website : I want to go home (iwannagohome)
 
 Nama  : Edwin Liona Jaya
 Kelas : IF4
 NIM   : 10121154
 
-Prerequirement:
+Kebutuhan:
+- Composer
+- MYSQL
+- PHP
 - Internet 
-- Laptop (This website is more stable on laptop)
+- Laptop (Websitenya lebih stable di laptop)
 
-How to run :
-1. Create a database called, "iwannagohome".
-2. Import the db ("iwannagohome.sql") from the main file to the "iwannagohome" db on sql.
-3. Run "php artisan serve" on command prompt.
+Cara run :
+1. Download file zipnya atau bisa clone dari repo github ini.
+2. Rename file ".env .example" jadi ".env"
+3. Jalankan perintah "composer install" pada command prompt.
+4. Buatlah sebuah database bernama "iwannagohome" di MYSQL.
+5. Import file "iwannagohome.sql" dari folder utama ke database MYSQL.  
+6. Jalankan perintah "php artisan serve" di command prompt.
 
-Note : Please make sure the db_port, db_username, and db_password in .env file match the laptop's db.
+Note : Pastikan db_usename, db_password, db_port di website ini sama dengan informasi database di laptop local.
