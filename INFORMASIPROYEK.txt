@@ -5,12 +5,18 @@ Kelas : IF4
 NIM   : 10121154
 
 Kebutuhan:
+- Composer
+- MYSQL
+- PHP
 - Internet 
 - Laptop (Websitenya lebih stable di laptop)
 
 Cara run :
-1. Buatlah sebuah database bernama "iwannagohome" di MYSQL.
-2. Import file iwannagohome.sql dari folder utama ke database MYSQL.  
-3. Jalankan perintah "php artisan serve" di command prompt.
+1. Download file zipnya atau bisa clone dari repo github ini.
+2. Rename file ".env .example" jadi ".env"
+3. Jalankan perintah "composer install" pada command prompt.
+4. Buatlah sebuah database bernama "iwannagohome" di MYSQL.
+5. Import file "iwannagohome.sql" dari folder utama ke database MYSQL.  
+6. Jalankan perintah "php artisan serve" di command prompt.
 
-Note : Pastikan db_usename, db_password, db_port di app ini sama dengan informasi database di laptop local.
+Note : Pastikan db_usename, db_password, db_port di website ini sama dengan informasi database di laptop local.
