@@ -19,14 +19,21 @@ https://iwannagohome.kodemaya.my.id/
 https://github.com/jaysnel/fbi-missing-person-api
 
 <h1>Prerequiste</h1>
+- PHP <br>
+- MySQL <br>
 - Composer <br>
 - Laravel <br>
 - Internet Connection <br>
 - Laptop (Most stable on laptop) <br>
 
-<h1>How to run</h1>
-1. Create a database called, "iwannagohome". <br>
-2. Import the db ("iwannagohome.sql") from the main folder to the "iwannagohome" db on sql. <br>
-3. Run <code>php artisan serve</code> on command prompt. <br>
+<h1>Installation</h1>
+1. Git clone or download this repo. <br>
+2. Rename <code>.env.example</code> to <code>.env</code> <br>
+3. Open command prompt in this folder and run <code>composer install</code>. <br>
+4. Create a database called, "iwannagohome", in MYSQL. <br>
+5. Import the <code>"iwannagohome.sql"</code> from the main folder to the "iwannagohome" db on sql. <br>
+6. Run <code>php artisan serve</code> on command prompt. <br>
+
+Note : make sure the database's configuration in the <code>.env</code> is match with your computer.
 
 
