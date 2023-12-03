@@ -1,0 +1,16 @@
+Website : I want to go home.
+
+Nama  : Edwin Liona Jaya
+Kelas : IF4
+NIM   : 10121154
+
+Prerequirement:
+- Internet 
+- Laptop (This website is more stable on laptop)
+
+How to run :
+1. Create a database called, "iwannagohome".
+2. Import the db ("iwannagohome.sql") from the main file to the "iwannagohome" db on sql.
+3. Run "php artisan serve" on command prompt.
+
+Note : Please make sure the db_port, db_username, and db_password in .env file match the laptop's db.

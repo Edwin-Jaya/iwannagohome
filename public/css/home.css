@@ -1,0 +1,30 @@
+.card{
+    margin: 5% 0%;
+  }
+
+.card-img-top{
+    height: 400px;
+    object-fit: cover;
+}
+.card-body{
+    margin: 0% 0% 0% 3%;
+    padding: 6% 0%;
+  }
+
+.h4.card-title.text-dark {
+    font-size: 18px;
+}
+
+p{
+    font-weight: bold;
+    color: red;
+}
+
+.btn.btn-light-blue.btn-md{
+    background-color:aliceblue;
+}
+
+.btn.btn-light-blue.btn-md:hover{
+    background-color:#8a0303;
+    color:white;
+}
