@@ -25,8 +25,8 @@ https://github.com/jaysnel/fbi-missing-person-api
 - Laptop (Most stable on laptop) <br>
 
 <h1>How to run</h1>
-1.Create a database called, "iwannagohome". <br>
-2.Import the db ("iwannagohome.sql") from the main folder to the "iwannagohome" db on sql. <br>
-3.Run <code>php artisan serve</code> on command prompt. <br>
+1. Create a database called, "iwannagohome". <br>
+2. Import the db ("iwannagohome.sql") from the main folder to the "iwannagohome" db on sql. <br>
+3. Run <code>php artisan serve</code> on command prompt. <br>
 
 
