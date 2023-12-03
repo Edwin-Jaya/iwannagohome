@@ -32,7 +32,7 @@ https://github.com/jaysnel/fbi-missing-person-api
 3. Open command prompt in this folder and run <code>composer install</code>. <br>
 4. Create a database called, "iwannagohome", in MYSQL. <br>
 5. Import the <code>"iwannagohome.sql"</code> from the main folder to the "iwannagohome" db on sql. <br>
-6. Run <code>php artisan serve</code> on command prompt. <br>
+6. Run <code>php artisan serve</code> in the command prompt. <br>
 
 Note : make sure the database's configuration in the <code>.env</code> is match with your computer.
 
