@@ -79,7 +79,7 @@
                                                             <input class="form-control" id="inputRace" type="text" name="race" value="{{$person['race']}}">
                                                         </div>
                                                         <div class="mb-3">
-                                                            <label class="small mb-1" for="inputPicture">Picture</label>
+                                                            <label class="small mb-1" for="inputPicture">Picture Link</label>
                                                             <input class="form-control" id="inputPicture" type="text" name="picture" value="{{$person['picture']}}">
                                                         </div>
                                                         <div class="mb-3">
